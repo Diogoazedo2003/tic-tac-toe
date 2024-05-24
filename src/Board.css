@@ -1,0 +1,39 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px); /* 3 colunas de 100px cada */
+  grid-template-rows: repeat(3, 100px); /* 3 linhas de 100px cada */
+  gap: 0; /* Sem espaços entre os quadrados */
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 100px;
+  margin-right: -1px; /* Remover a margem direita do quadrado */
+  margin-top: -1px; /* Remover a margem superior do quadrado */
+  padding: 0;
+  text-align: center;
+  width: 100px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.square.x {
+  color: orange;
+}
+
+.square.o {
+  color: blue;
+}

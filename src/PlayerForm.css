@@ -1,0 +1,22 @@
+.player-form {
+  margin-bottom: 20px;
+}
+
+.player-form div {
+  margin-bottom: 10px;
+}
+
+.player-form label {
+  margin-right: 10px;
+}
+
+.player-form input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.player-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
